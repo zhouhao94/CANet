@@ -1,0 +1,9 @@
+torch==0.4.1
+torchvision=0.2.2
+numpy
+imageio
+scipy
+tensorboardX
+matplotlib
+scikit-image
+h5py
