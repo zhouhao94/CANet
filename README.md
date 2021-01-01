@@ -3,7 +3,7 @@ An implementation of RGB-D co-attention network
 
 ## Table of Contents
 
-- [Getting Started](#getting started)
+- [Getting Started](#gettingstarted)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 
