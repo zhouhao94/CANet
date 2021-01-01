@@ -3,11 +3,11 @@ An implementation of RGB-D co-attention network
 
 ## Table of Contents
 
-- [Getting Started](#gettingstarted)
+- [Start](#Start)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 
-## Getting Started
+## Start
 Clone this repo:
 ```
 git clone https://github.com/zhouhao94/CANet.git
