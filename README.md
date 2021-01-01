@@ -3,17 +3,25 @@ An implementation of RGB-D co-attention network
 
 ## Table of Contents
 
+- [Getting Started](#getting started)
 - [Dependencies](#dependencies)
-- [Install](#install)
 - [Usage](#usage)
 
+## Getting Started
+Clone this repo:
+```
+git clone https://github.com/zhouhao94/CANet.git
+```
+
 ## Dependencies
+```
+Python 3
+Pytorch 0.4.1
+TensorboardX
+Tensorboard
+```
 
-PyTorch 0.4.0, TensorboardX 1.2 and other packages listed in `requirements.txt`.
-
-## Install
-
-This project uses pytorch and other dependencies, you can intall it with this
+install all dependent libraries:
 ```sh
 $ pip install -r requirements.txt
 ```
@@ -23,11 +31,11 @@ $ pip install -r requirements.txt
 For training, you can pass the following argument,
 
 ```
-python ACNet_train_V1_nyuv2.py --cuda -b 4
+python CANet_train_nyuv2.py --cuda -b 4
 ```
 
-For inference, you should run the [ACNet_eval_nyuv2.py](ACNet_eval_nyuv2.py) like this,
+For inference, you should run the [CANet_eval_nyuv2.py](CANet_eval_nyuv2.py) like this,
 
 ```
-python ACNet_eval_nyuv2.py --cuda --last-ckpt /path/to/pretrained/model.pth
+python CANet_eval_nyuv2.py --cuda --last-ckpt /path/to/pretrained/model.pth
 ```
