@@ -15,10 +15,15 @@ git clone https://github.com/zhouhao94/CANet.git
 
 ## Dependencies
 ```
-Python 3
-Pytorch 0.4.1
-TensorboardX
-Tensorboard
+torch==0.4.1
+torchvision=0.2.2
+numpy
+imageio
+scipy
+tensorboardX
+matplotlib
+scikit-image
+h5py
 ```
 
 install all dependent libraries:
