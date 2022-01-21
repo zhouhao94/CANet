@@ -1,5 +1,5 @@
 # CANet
-An implementation of RGB-D co-attention network
+CANet: Co-attention network for RGB-D semantic segmentation
 
 ## Table of Contents
 
