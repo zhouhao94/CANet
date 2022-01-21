@@ -1,6 +1,20 @@
 # CANet
 CANet: Co-attention network for RGB-D semantic segmentation
 
+## Citaion
+You can cite our paper using: 
+```
+@article{zhou2022canet,
+  title={CANet: Co-attention network for RGB-D semantic segmentation},
+  author={Zhou, Hao and Qi, Lu and Huang, Hai and Yang, Xu and Wan, Zhaoliang and Wen, Xianglong},
+  journal={Pattern Recognition},
+  volume={124},
+  pages={108468},
+  year={2022},
+  publisher={Elsevier}
+}
+```
+
 ## Table of Contents
 
 - [Start](#Start)
